@@ -24,6 +24,8 @@ gui:
   scrollHeight: 2 # how many lines you scroll by
   scrollPastBottom: true # enable scrolling past the bottom
   sidePanelWidth: 0.3333 # number from 0 to 1
+  # ScreenMode allow user to specify which screen mode will be used on startup
+  screenMode: "normal"  # one of 'normal' | 'half' | 'fullscreen'
   expandFocusedSidePanel: false
   mainPanelSplitMode: 'flexible' # one of 'horizontal' | 'flexible' | 'vertical'
   language: 'auto' # one of 'auto' | 'en' | 'zh' | 'pl' | 'nl' | 'ja' | 'ko'
